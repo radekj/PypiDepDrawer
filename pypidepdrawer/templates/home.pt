@@ -1,0 +1,14 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+       xmlns:tal="http://xml.zope.org/namespaces/tal"
+       xmlns:metal="http://xml.zope.org/namespaces/metal"
+       metal:use-macro="main_template.macros['main']">
+     <span metal:fill-slot="middle">
+        <div class="top align-center">
+          <h2>Search for the PyPi project</h2>
+          <form method="get" action="/graph">
+                <input type="text" id="package" name="package" value="" />
+                <input type="submit" id="x" value="Go" />
+          </form>
+        </div>
+     </span>
+</html>

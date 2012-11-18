@@ -1,0 +1,7 @@
+strict digraph G {
+"BeautifulSoup-3.2.1";
+"stxnext.staticdeployment-1.0.2";
+"distribute-0.6.30";
+"stxnext.staticdeployment-1.0.2" -> "BeautifulSoup-3.2.1";
+"stxnext.staticdeployment-1.0.2" -> "distribute-0.6.30";
+}

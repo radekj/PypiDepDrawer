@@ -1,0 +1,9 @@
+strict digraph G {
+"distribute-0.6.30";
+"networkx-1.7";
+"gluttony-0.5";
+"Pip-1.2.1";
+"networkx-1.7" -> "distribute-0.6.30";
+"gluttony-0.5" -> "networkx-1.7";
+"gluttony-0.5" -> "Pip-1.2.1";
+}

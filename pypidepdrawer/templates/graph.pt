@@ -1,0 +1,14 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+       xmlns:tal="http://xml.zope.org/namespaces/tal"
+       xmlns:metal="http://xml.zope.org/namespaces/metal"
+       metal:use-macro="main_template.macros['main']">
+     <span metal:fill-slot="middle">
+        <div class="top align-center">
+          <div>
+              <a href="${graph_path}" class="lightview" data-lightview-title="Graph">
+                <img class="graph_thumb" src="${graph_path}" />
+              </a>
+          </div>
+        </div>
+     </span>
+</html>
